@@ -128,12 +128,13 @@ button {
     
    .video img {
         float:left;
+        width: 40%;
     }
    
    .description p {
         text-align: left;
         width: 50%;
-        display: inline;
+        float: right;
     }
    
 }
@@ -146,7 +147,7 @@ button {
     }
     
     #btn {
-        margin-top: 150px;
+        margin-top: 80px;
     }
     
 }
