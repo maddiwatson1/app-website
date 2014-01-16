@@ -1,0 +1,152 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	background-color: #efefef;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+#masthead {
+    background-color: #fff;
+    height: 50px;
+    padding-top: 15px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h1 img{
+    padding-right: 10px;
+    position: relative;
+}
+
+.video {
+    margin: 20px 10px 0 10px;
+    text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 20px 10px 0 0;
+	width: 100%;
+	height: 550px;
+	color: #bcbcbc;
+	background-color: #fff;
+}
+
+.description p {
+    text-align: left;
+}
+
+button {
+    font-size: 12px;
+    
+    width: 120px;
+    height: 30px;
+    
+    background-color: #d9d9d9 ;
+    
+    border: 2px solid;
+    border-radius: 10px;
+    border-color:transparent;
+
+    margin-left: 15px;
+    
+}
+
+#btn {
+    margin-top: 30px;
+    text-align: center
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top:40px;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 33.75em) {
+    
+    .video {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    
+    .description p {
+        margin-top: 40px;
+        padding-left: 2px;
+    }
+    
+    .container {
+        height: 550px;
+    }
+    
+}
+
+@media only screen and (min-width: 37.5em) {
+    
+    
+    .video {
+        text-align: center;
+    }
+    
+    .video img {
+        margin-right: 0;
+    }
+    
+     .description p {
+        margin: 40px 85px 0 85px;
+    }
+    
+    
+}  
+
+@media only screen and (min-width: 43.75em) {
+    
+    .container {
+        height: 650px;
+    }
+    
+    #btn {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 45.625em) {
+   
+    .video {
+        float: left;
+    }
+    
+   .video img {
+        float:left;
+    }
+   
+   .description p {
+        text-align: left;
+        width: 50%;
+        display: inline;
+    }
+   
+}
+ 
+
+@media only screen and (min-width: 89.8125em) {
+
+    .container {
+        height: 600px;
+    }
+    
+    #btn {
+        margin-top: 150px;
+    }
+    
+}
