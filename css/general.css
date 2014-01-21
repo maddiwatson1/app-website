@@ -65,6 +65,31 @@ button {
     text-align: center
 }
 
+.carousel {
+    padding-bottom: 56.23%; /*image aspect ratio: height/width * 100 */
+    position: relative;
+}
+
+.carousel-items img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.carousel-items [data-state="current"] {
+    z-index: 100;
+}
+
+.carousel-items [data-state="incoming"] {
+    z-index: 101;
+}
+
+.carousel-buttons {
+    position: absolute;
+    z-index: 130;
+}
+
 .footer {
     width: 100%;
     height: 50px;
