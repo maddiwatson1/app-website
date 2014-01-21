@@ -1,30 +1,33 @@
 <!doctype html>
 <html>
 <head>
-<title>MuSync App</title>
 <meta charset="UTF-8">
-<meta name="handheldfriendly" content="true">
-<meta name="mobileoptimized" content="240">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MuSync App</title>
 <link href="css/general.css" rel="stylesheet">
+<link href="css/grid.css"rel="stylesheet">
 </head>
+
+<header>
+    <img src="img/app-Icon.png" width="50" height="50"></header>
+
 <body>
 
-<section id="masthead">
-    <h1><img src="img/App%20Icon%20%5BSquared%5D/iTunesArtwork@2x.png" style="height:40px;width:40px">MuSync</h1> 
-</section>
-            
-<div id="main" class="container">            
-    <div class="video">
-        <img src="http://placehold.it/300x150&text=App Video" s>
-            <div class="description">
-                <p> Designed for the all time music lover; the user that is always looking to add songs to their collection. Sync your music with this app, and you'll be presented with numerous songs based on the genre of music you listen to. Designed for the all time music lover; the user that is always looking to add songs to their collection. Sync your music with this app, and you'll be presented with numerous songs based on the genre of music you listen to.</p>
-            </div>
+<div class="grid-1">
+    <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 ">
+        <div class="unit-spacer">
+            <img src="http://placehold.it/150x80" class="flex-img1" alt="">
+        </div>
     </div>
-    <div id="btn">
-        <button id="btn">Download Now</button>
+        
+    <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 ">
+        <div class="unit-spacer">
+            <h1>MuSync</h1>
+                <p>Designed for the all time music lover; the user that is always looking to add songs to their collection. Sync your music with this app, and you'll be presented with numerous songs based on the genre of music you listen to.<br></p>
+            <button id="btn">Buy Now!</button>
+        </div>
     </div>
-</div>
+</div>    
+    
     
 <div class="carousel">
     <div class="carousel-items">
@@ -42,11 +45,13 @@
     </div>    
 </div>
 
-<div class="footer">
-    <footer> © 2014 MuSync</footer>
-</div>
-
-<script src="js/main.js"</script>
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
+
+<div id="footer">
+    <div id="footer_wrapper"><p>© MuSync 2014 // Maddi Watson Design</p></div>
+</div>
+    
 </html>
