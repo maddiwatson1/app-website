@@ -5,10 +5,19 @@
 <title>MuSync App</title>
 <link href="css/general.css" rel="stylesheet">
 <link href="css/grid.css"rel="stylesheet">
+<link href="css/nav.css" rel="stylesheet">
 </head>
 
 <header>
-    <img src="img/app-Icon.png" width="50" height="50"></header>
+<nav id="#navigation">
+    <img src="img/app-Icon.png" width="50" height="50">
+    <ul>
+        <li><a href="#">about</a></li>
+        <li><a href="#">terms</a></li>
+    </ul>
+</nav>
+</header>
+
 
 <body>
 
@@ -28,7 +37,7 @@
     </div>
 </div>    
     
-    
+<div id="tab">
 <div class="carousel">
     <div class="carousel-items">
         <img data-state="current" src="img/welcome.jpg" alt="">
@@ -44,14 +53,20 @@
         <button class="prev">Prev</button>
     </div>    
 </div>
+</div>
+    
+<footer>
+    <ul>
+      <li><a href="#">about</a></li>
+      <li><a href="#">terms</a></li>
+    </ul>
+</footer>
 
 <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/carousel.js"></script>
 
 </body>
 
-<div id="footer">
-    <div id="footer_wrapper"><p>© MuSync 2014 // Maddi Watson Design</p></div>
-</div>
     
 </html>
