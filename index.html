@@ -6,6 +6,8 @@
 <link href="css/general.css" rel="stylesheet">
 <link href="css/grid.css"rel="stylesheet">
 <link href="css/nav.css" rel="stylesheet">
+<link href="css/video.css" rel="stylesheet">
+<link href="css/dialog-polyfill.css" rel="stylesheet">
 </head>
 
 <header>
@@ -24,7 +26,13 @@
 <div class="grid-1">
     <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 ">
         <div class="unit-spacer">
-            <img src="http://placehold.it/150x80" class="flex-img1" alt="">
+             <button id="btn-open"><img src="http://placehold.it/250x150"></button>
+                <dialog id="video">
+                    <button id="btn-close">✕</button>
+                        <div id="video-placeholder">
+            
+                        </div>
+                </dialog>
         </div>
     </div>
         
@@ -65,6 +73,8 @@
 <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/carousel.js"></script>
+<script src="js/video.js"></script>
+<script src="js/dialog-polyfill.js"></script>
 
 </body>
 
