@@ -287,4 +287,35 @@ p {
 
 #screenshots {
     width: 60%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#btn-open {
+    color: #000;
+    background-color:  #fff;
+    border-radius: 6px;
+}
+
+#btn-open img {
+    max-width: 50%;
+    max-height: 400px;
+}
+
+#btn {
+    color: #fff;
+    background-color:  #F3333B;
+    border-radius: 6px;
+}
+
+.next {
+    color: #000;
+    background-color:  #fff;
+    border-radius: 6px;
+}
+
+.prev {
+    color: #000;
+    background-color:  #fff;
+    border-radius: 6px;
 }
