@@ -295,6 +295,7 @@ p {
     color: #000;
     background-color:  #fff;
     border-radius: 6px;
+    border: none;
 }
 
 #btn-open img {
