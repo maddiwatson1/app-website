@@ -7,6 +7,7 @@
 <link href="css/grid.css"rel="stylesheet">
 <link href="css/nav.css" rel="stylesheet">
 <link href="css/video.css" rel="stylesheet">
+<link href="css/animation.css" rel="stylesheet">
 <link href="css/dialog-polyfill.css" rel="stylesheet">
 </head>
 
@@ -44,34 +45,44 @@
         </div>
     </div>
 </div>    
-    
-<div id="screenshots">
-<div class="carousel">
-    <div class="carousel-items">
-        <img data-state="current" src="img/welcome.jpg" alt="">
-        <img src="img/syncing-music.jpg" alt="">
-        <img src="img/artists.jpg" alt="">
-        <img src="img/albums.jpg" alt="">
-        <img src="img/songs.jpg" alt="">
-        <img src="img/flyout.jpg" alt="">
-        <img src="img/player.jpg" alt="">
+
+<section class="carousel-section">
+    <div id="screenshots">
+        <div class="carousel">
+            <div class="carousel-items">
+                <img data-state="current" src="img/welcome.jpg" alt="">
+                <img src="img/syncing-music.jpg" alt="">
+                <img src="img/artists.jpg" alt="">
+                <img src="img/albums.jpg" alt="">
+                <img src="img/songs.jpg" alt="">
+                <img src="img/flyout.jpg" alt="">
+                <img src="img/player.jpg" alt="">
+            </div>
+            <div class="carousel-buttons">
+                <button class="next">Next</button>
+                <button class="prev">Prev</button>
+            </div>    
+        </div>
     </div>
-    <div class="carousel-buttons">
-        <button class="next">Next</button>
-        <button class="prev">Prev</button>
-    </div>    
-</div>
-</div>
+</section>
+
+<section class="icons-section">
+    <ul class="icons">
+        <li><img class="icons" src="img/music-1.svg" alt=""></li>
+        <li><img class="icons" src="img/music-2.svg" alt=""></li>
+        <li><img class="icons" src="img/music-3.svg" alt=""></li>
+    </ul>
+</section>
     
 <footer>
-    <ul>
-      <li><a href="#">about</a></li>
-      <li><a href="#">terms</a></li>
-    </ul>
+    <div id="bottom">
+        <div id="content"><p>App Design By Maddi Watson</p></div>
+    </div>
 </footer>
 
 <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 <script src="js/dialog-polyfill.js"></script>
+<script src="js/waypoints.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/video.js"></script>
 <script src="js/carousel.js"></script>
