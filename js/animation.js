@@ -1,17 +1,6 @@
 var $win = $(window);
-var $sun = $('.sun');
-var $dipper = $('.dipper');
-var $ships =$('.icons img');
+var $logo = $('.logo');
 
-$win.on('scroll', function() {
-	//console.log($win.scrollTop());
-	$sun.css('transform', 'rotate(' + $win.scrollTop() / 5 + 'deg)');
-	});
-
-
-$('.icons-section').waypoint(function (){
-	$icons.eq(0).addClass('js-icons-delay-1');
-	$icons.eq(2).addClass('js-icons-delay-3');
-	$icons.eq(3).addClass('js-icons-delay-2');
-	$icons.addClass('js-icons-animate');
-}, { offset: '60%' });
+$('.logo-section').waypoint(function () {
+	$logo.addClass('js-logo-animate');
+}, {offset: '60%' });

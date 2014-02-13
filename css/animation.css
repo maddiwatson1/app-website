@@ -1,51 +1,24 @@
-.icons-section{
+.logo-section{
 	background-color:#F3333B;
-    height: 0; 
-}
-.icons {
-	margin:0;
-	padding:0;
-	list-style-type:none;
-	text-align:center;
+    height: auto; 
 }
 
-.icons li {
-	display:inline-block;
-	margin:0 2rem;
+.logo {
+	max-width: 500px;
+	opacity: 0;
+	display: block;
+	margin: 0 auto;
 }
 
-.icons img{
-	width:140px;
-	opacity:0;
-	-webkit-transform:translateY(140px);
+.js-logo-animate {
+	-webkit-animation:logo-fade 3s linear 1 forwards;
 }
 
-@-webkit-keyframes icons-fly{
-	0%{
+@-webkit-keyframes logo-fade {
+	0% {
 		opacity: 0;
-		-webkit-transform:translateY(140px);
 	}
-	40%{
-		opacity:1;
+	100% {
+		opacity: 1;
 	}
-	100%{
-		opacity:1;
-		-webkit-transform:translateY(0);
-	}
-}
-
-.js-icons-animate {
-	-webkit-animation: icons-fly 1s ease-out 1 forwards;
-}
-
-.js-icons-delay-1 {
-	-webkit-animation-delay: 100ms;
-}
-
-.js-icons-delay-2 {
-	-webkit-animation-delay: 200ms;
-}
-
-.js-icons-delay-3 {
-	-webkit-animation-delay: 250ms;
 }
